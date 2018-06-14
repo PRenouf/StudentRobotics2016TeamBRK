@@ -1,0 +1,4 @@
+overlay:
+  type: "internal"
+  filename: "overlay.sr2016.2.squash"
+  filesize: 344064

@@ -1,0 +1,285 @@
+Current robot name 'Let's call it Gerald'
+Setting up the robot
+Initialising hardware.
+Found the following devices:
+ - Power( serialnum = "sr0HV2W" )
+ - Motors:
+    0: Motor( serialnum = "SR0KDK" )
+    1: Motor( serialnum = "SR0YE5" )
+ - Servos:
+    0: Servo( serialnum = "sr0QQ2K" )
+ - Ruggeduinos:
+    0: Ruggeduino( serialnum = "75230313833351317181" )
+ - Webcam
+Initialising hardware
+Straightening main arm
+Closing arms to be in size limit
+Waiting for start signal.
+Robot started
+Driving out
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+index: 1, side we see : top, z-rotation: 105.603760 side on top: pink
+green
+('Side On Top =', 'pink')
+Foundpink
+Valid token sighted - Token code: 44 is 0.907174170017 away at bearing 5.85526657104. To be flipped -1 times.
+Going to QUICKDRIVE from SEARCHING
+index: 0, side we see : orange, z-rotation: 5.966003 side on top: top
+top
+yellow
+bot
+green
+('Side On Top =', 'top')
+Foundtop
+Valid token sighted - Token code: 47 is 0.796704769135 away at bearing 8.20016288757. To be flipped 3 times.
+Going to QUICKDRIVE from SEARCHING
+--Entering Quickdrive state--
+Can see token
+Token spotted between 0.7 and 0.9 metres away. Driving slightly forward.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+The target token has not been found in the new photo
+Target token found in new photo
+--Entering Quickdrive state--
+Can see token
+Token less than 70cm from camera, going to FINALADJUST from QUICKDRIVE
+--final adjust state--
+Token sighted at bearing 9.53314876556 degrees.
+Right a tiny bit...
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+The target token has not been found in the new photo
+Target token found in new photo
+--final adjust state--
+Token sighted at bearing 6.80604219437 degrees.
+Right a tiny bit...
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+The target token has not been found in the new photo
+Target token found in new photo
+--final adjust state--
+Token sighted at bearing 2.99896764755 degrees.
+--ram state--
+Arms open
+Arms closed (left first)
+Arms open
+Arms closed (right first)
+Arms open
+RIP token
+--flip state--
+index: 0, side we see : orange, z-rotation: 9.010773 side on top: top
+top
+yellow
+bot
+green
+('Side On Top =', 'top')
+Foundtop
+Attempting to turn the box -1 times
+Turning token 1 times
+-1
+--Entering LEVELARM state--
+Shaking token off robot
+Wiggle
+Wiggle
+Wiggle
+Wiggle
+Wiggle
+Wiggle
+Wiggle
+Straightening arm in preparation for next assault
+DEBUG: Arm spin saftey variable is 42
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+The target token has not been found in the new photo
+--Entering DOUBLE CHECK state--
+Checking marker to see if ours in on top
+catching index error in DOUBLECHECK
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+The target token has not been found in the new photo
+--Entering searching state--
+index: 0, side we see : bot, z-rotation: -1.852142 side on top: green
+green
+('Side On Top =', 'green')
+Foundgreen
+Token with our side up sighted, ignoring
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+index: 0, side we see : bot, z-rotation: 6.144531 side on top: green
+green
+('Side On Top =', 'green')
+Foundgreen
+Token with our side up sighted, ignoring
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+29
+Token which can not be flipped sighted, ignoring
+Error: 401
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+29
+Token which can not be flipped sighted, ignoring
+Error: 401
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+29
+Token which can not be flipped sighted, ignoring
+Error: 401
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+29
+Token which can not be flipped sighted, ignoring
+Error: 401
+Can't see anything.
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+Can't see anything.
+I've spun round 10 times, there's not much chance of there being any valid tokens here so I'm going to move
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering EMERGENCY REPOSITION state--
+Taking picture
+No markers of any kind found
+Reversing and turning around
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering EMERGENCY REPOSITION state--
+Taking picture
+markers found in new photo, identifying furthest marker
+Furthest marker is 1.32719922066 metres away
+Driving at full speed. Going roughly the distance of that marker
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+--Entering searching state--
+index: -1, side we see : bot, z-rotation: -101.543518 side on top: pink
+green
+('Side On Top =', 'pink')
+Foundpink
+Valid token sighted - Token code: 45 is 1.05061197281 away at bearing -11.8549566269. To be flipped -3 times.
+Going to QUICKDRIVE from SEARCHING
+index: -2, side we see : green, z-rotation: -154.453278 side on top: bot
+top
+orange
+bot
+pink
+Token which can not be flipped sighted, ignoring
+Error: 400
+index: 2, side we see : orange, z-rotation: 176.155960 side on top: bot
+top
+yellow
+bot
+green
+('Side On Top =', 'bot')
+Foundbot
+Valid token sighted - Token code: 47 is 1.02205944061 away at bearing -13.5825939178. To be flipped 1 times.
+Going to QUICKDRIVE from SEARCHING
+--Entering Quickdrive state--
+Can see token
+Left a bit...
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.
+Photo taken
+Checking Photo
+Entering chosentoken in pre-state loop
+Target token found in new photo
+--Entering Quickdrive state--
+Can see token
+Left a bit...
+---Pre state machine takephoto---
+takepicturebool=true, so picture will be taken and relevant variables updated.

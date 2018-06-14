@@ -1,0 +1,19 @@
+Current robot name 'Let's call it Gerald'
+Setting up the robot
+Initialising hardware.
+Found the following devices:
+ - Power( serialnum = "sr0HV2W" )
+ - Motors:
+    0: Motor( serialnum = "SR0KDK" )
+    1: Motor( serialnum = "SR0YE5" )
+ - Servos:
+    0: Servo( serialnum = "sr0QQ2K" )
+ - Ruggeduinos:
+    0: Ruggeduino( serialnum = "75230313833351317181" )
+ - Webcam
+Initialising hardware
+Straightening main arm
+Closing arms to be in size limit
+Waiting for start signal.
+Robot started
+Driving out
